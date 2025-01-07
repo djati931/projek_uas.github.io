@@ -1,0 +1,59 @@
+.page-header {
+    background: #f8f9fa;
+    padding: 60px 0;
+    margin-top: 76px;
+}
+
+.company-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.share-buttons a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.facebook { background: #3b5998; }
+.twitter { background: #1da1f2; }
+.whatsapp { background: #25d366; }
+.email { background: #ea4335; }
+
+.vision-mission {
+    background: #f8f9fa;
+    padding: 60px 0;
+}
+
+.contact-info {
+    background: white;
+    padding: 40px 0;
+}
+
+.footer {
+    background: #f8f9fa;
+    padding: 40px 0 20px;
+}
+
+.social-links a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.linkedin { background: #0077b5; }
+.instagram { background: #e4405f; }
+.youtube { background: #ff0000; }

@@ -1,0 +1,105 @@
+.hero-banner {
+    height: 500px;
+    background-image: url('../image/sayuranhd.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 76px;
+}
+
+.product-category {
+    padding: 60px 0;
+}
+
+.category-card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.category-image {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.category-info {
+    padding: 15px;
+}
+
+.category-info h3 {
+    color: #006838;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+
+.category-info p {
+    color: #666;
+    margin-bottom: 0;
+}
+
+.pagination {
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.page-item.active .page-link {
+    background-color: #006838;
+    border-color: #006838;
+}
+
+.page-link {
+    color: #006838;
+}
+
+.product-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.product-header h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.product-header p {
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-info {
+    background: white;
+    padding: 40px 0;
+}
+
+.footer {
+    background: #f8f9fa;
+    padding: 40px 0 20px;
+}
+
+.social-links a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.linkedin { background: #0077b5; }
+.instagram { background: #e4405f; }
+.youtube { background: #ff0000; }
